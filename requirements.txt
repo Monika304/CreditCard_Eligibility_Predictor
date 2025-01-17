@@ -1,0 +1,18 @@
+project/Credit Card Eligibility Predictor
+│
+├── static/
+│   └── images/
+│       ├── eligible.webp              # Image for eligible result
+│       └── not_eligible.webp          # Image for not eligible result
+│
+├── templates/
+│   ├── index.html                     # Form for user input
+│   ├── result.html                    # Displays prediction result and respective image
+│
+├── app.py                             # Main Flask application
+├── credit_card_deployment.py          # Script for training and saving the model
+├── Credit_data.csv                    # Dataset for training the model
+├── credit-eligibility-predictor-rfc-model.pkl # Pre-trained RandomForestClassifier model
+├── requirements.txt                   # Python dependencies
+├── .gitignore                         # Ignore unnecessary files in Git
+└── README.md                          # Project documentation
